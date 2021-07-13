@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="logo">Roccaro's <span>Ristorante</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Datos del cliente:</h2>
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre_cliente" placeholder="Ingrese nombre del cliente">
+                    </p>
+                    <p>
+                        <label for="cedula">Cedula de identidad:</label>
+                        <input type="text" name="cedula" id="id_cliente" placeholder="Ingrese cedula del cliente">
+                    </p>
+                    <p>
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" name="telefono" id="telefonoc" placeholder="Ingrese numero del cliente">
+                    </p>
+                    <p>
+                        <label for="direccion">Direccion:</label>
+                        <input type="text" name="direccion" id="direccionc" placeholder="Ingrese direccion del cliente">
+                    </p>
+                    <p>
+                        <input onclick="factura()" type="submit" value="Enviar">
+                    </p>
+                </form>
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
